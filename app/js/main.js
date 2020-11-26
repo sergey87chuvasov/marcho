@@ -10,4 +10,13 @@ $(function () {
   });
 
 
+ $(".star").rateYo({
+    starWidth: "17px",
+    normalFill: "#ccccce",
+    ratedFill: "#ffc35b",
+    spacing: "1px",
+    readOnly: "true"
+  });
+
+
 });
